@@ -1,6 +1,6 @@
 
 
-# anduinos-iso-builder-remix-prototype-budgie
+# anduinos-iso-builder-remix-budgie
 
 
 
@@ -9,7 +9,7 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [AnduinOS / ISO Builder / Remix Prototype / Budgie](https://samwhelp.github.io/anduinos-iso-builder-remix-prototype-budgie/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie) |
+| [AnduinOS / ISO Builder / Remix Prototype / Budgie](https://samwhelp.github.io/anduinos-iso-builder-remix-budgie/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie) |
 | [AnduinOS / ISO Builder / Remix / Budgie](https://samwhelp.github.io/anduinos-iso-builder-remix-budgie/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie) |
 | [AnduinOS / ISO Builder / Note](https://samwhelp.github.io/note-about-anduinos-iso-builder/) | [GitHub](https://github.com/samwhelp/note-about-anduinos-iso-builder) |
 
@@ -39,18 +39,18 @@
 
 | Main Module | Purpose |
 | ----------- | ------- |
-| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) | [install package](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod/asset/package/install) |
-| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) | [install file](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay) |
+| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) | [install package](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod/asset/package/install) |
+| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) | [install file](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay) |
 
 
 | Infrastructure | Purpose |
 | -------------- | ------- |
-| [60-dconf-system-db-init-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/60-dconf-system-db-init-mod) | [/etc/dconf](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/etc/dconf) |
-| [61-gsettings-schema-compile-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/61-gsettings-schema-compile-mod) | [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/usr/share/glib-2.0/schemas) |
+| [60-dconf-system-db-init-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/60-dconf-system-db-init-mod) | [/etc/dconf](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/etc/dconf) |
+| [61-gsettings-schema-compile-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/61-gsettings-schema-compile-mod) | [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/usr/share/glib-2.0/schemas) |
 
 
-* [Module / Ignored](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/blob/main/helper/docs/module/module-ignored.md)
-* [Module / Adjusted](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie/blob/main/helper/docs/module/module-adjusted.md)
+* [Module / Ignored](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/blob/main/helper/docs/module/module-ignored.md)
+* [Module / Adjusted](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie/blob/main/helper/docs/module/module-adjusted.md)
 
 
 
@@ -87,17 +87,17 @@ sudo apt-get install git
 ```
 
 
-> clone [anduinos-iso-builder-remix-prototype-budgie](https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie)
+> clone [anduinos-iso-builder-remix-budgie](https://github.com/samwhelp/anduinos-iso-builder-remix-budgie)
 
 ``` sh
-git clone https://github.com/samwhelp/anduinos-iso-builder-remix-prototype-budgie.git
+git clone https://github.com/samwhelp/anduinos-iso-builder-remix-budgie.git
 ```
 
 
-> change dir to `anduinos-iso-builder-remix-prototype-budgie`
+> change dir to `anduinos-iso-builder-remix-budgie`
 
 ``` sh
-cd anduinos-iso-builder-remix-prototype-budgie
+cd anduinos-iso-builder-remix-budgie
 ```
 
 
@@ -113,10 +113,10 @@ make combine-via-git
 ### Build All
 
 
-> change dir to `~/work/anduinos-iso-builder-remix-prototype-budgie/iso-profile`
+> change dir to `~/work/anduinos-iso-builder-remix-budgie/iso-profile`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-remix-prototype-budgie/iso-profile
+cd ~/work/anduinos-iso-builder-remix-budgie/iso-profile
 ```
 
 
@@ -139,10 +139,10 @@ make build-fast
 ### Build Default
 
 
-> change dir to `~/work/anduinos-iso-builder-remix-prototype-budgie/iso-profile/src`
+> change dir to `~/work/anduinos-iso-builder-remix-budgie/iso-profile/src`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-remix-prototype-budgie/iso-profile/src
+cd ~/work/anduinos-iso-builder-remix-budgie/iso-profile/src
 ```
 
 

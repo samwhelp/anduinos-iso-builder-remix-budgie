@@ -45,5 +45,5 @@ only-combine:
 
 
 tips-next-step:
-	@echo '[Next Step]: cd ~/work/anduinos-iso-builder-remix-prototype-budgie/iso-profile'
+	@echo '[Next Step]: cd ~/work/anduinos-iso-builder-remix-budgie/iso-profile'
 .PHONY: tips-next-step
