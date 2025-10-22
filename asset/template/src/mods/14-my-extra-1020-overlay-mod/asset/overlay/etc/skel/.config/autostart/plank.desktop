@@ -66,4 +66,4 @@ Icon=plank
 Terminal=false
 NoDisplay=false
 OnlyShowIn=Budgie;
-Hidden=true
+Hidden=false
